@@ -1,5 +1,6 @@
 branchName: '${issue.number}-${issue.title,}'
 openDraftPR: true
+autoCloseIssue: true
 gitSafeReplacementChar: '-'
 copyIssueDescriptionToPR: true
 copyIssueLabelsToPR: true
