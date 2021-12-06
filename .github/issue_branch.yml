@@ -1,2 +1,13 @@
 branchName: '${issue.number}-${issue.title,}'
 openDraftPR: true
+gitSafeReplacementChar: '-'
+copyIssueDescriptionToPR: true
+copyIssueLabelsToPR: true
+copyIssueAssigneeToPR: true
+copyIssueProjectsToPR: true
+copyIssueMilestoneToPR: true
+branches:
+  - label: enhancement
+    prefix: feature-
+  - label: bug
+    prefix: bug-
